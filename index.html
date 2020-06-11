@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <script src="https://kit.fontawesome.com/c4b71aa709.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="container pt-3">
+        <div class="row">
+            <div class="col-6 d-flex justify-content-start align-items-center">
+                <i class="fa fa-terminal fa-2x text-warning pb-3" aria-hidden="true"></i>
+                <h5 class="text-white d-inline pl-3">My Portfolio</h5>
+            </div>
+            <div class="col-6 pt-2">
+                <div class="row">
+                    <div class="col-3">
+                        <a href="#about" class="text-white navigation-link">About</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#skills" class="text-white navigation-link">Skills</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#projects" class="text-white navigation-link">Projects</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#social-media" class="text-white navigation-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container main-container">
+        <div class="row main_row">
+            <div class="col-6">
+                <h2 class="text-white">Hello, I'm</h2>
+                <h2 class="text-warning m-heading">Suyen Shrestha</h2>
+                <h2 class="text-white">Python/Django Developer</h2>
+            </div>
+            <div class="col-6 right-side">
+                <img src="./images/my profile.jpg" alt="my profile picture"/>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="container p-5">
+        <div class="row">
+            <div class="col-6">
+                <img src="./images/banner-image.png" alt="aboutme" class="img-fluid"/>
+            </div>
+            <div class="col-6 pl-5 pt-5 pb-5 text-white">
+                <h3 class="text-warning">About Me</h3>
+                <h1 class="m-heading">A little bit about me.</h1>
+                <p>I love working with <b class="text-warning">python and django</b>.
+                    My  dream is to become a future <b class="text-warning">python ninja</b>.
+                    Until then, I believe <b class="text-warning">'Slow and Steady wins the race!'</b>.
+                    Besides working on backend I'm also interested in frontend technologies.
+                    I have a beginner knowledge in <b class="text-warning">react</b> library.
+                </p>
+                <p>Besides coding, I love <b class="text-warning">sketching</b> and <b class="text-warning">exploring new places</b>.</p>
+            
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="skills" class="skills">
+        <h1 class="text-warning">My Skills</h1>
+        <li>
+            <h3 class="text-white">HTML</h3><span class="bar"><span class="html"></span></span>
+        </li>
+        <li>
+            <h3 class="text-white">CSS</h3><span class="bar"><span class="css"></span></span>
+        </li>
+        <li>
+            <h3 class="text-white">JAVASCRIPT</h3><span class="bar"><span class="js"></span></span>
+        </li>
+        <li>
+            <h3 class="text-white">PYTHON</h3><span class="bar"><span class="python"></span></span>
+        </li>
+        <li>
+            <h3 class="text-white">DJANGO</h3><span class="bar"><span class="django"></span></span>
+        </li>
+        <li>
+            <h3 class="text-white">REACT</h3><span class="bar"><span class="react"></span></span>
+        </li>
+    </div>
+
+    <div id="projects" class="container mt-3 pt-5">
+        <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+        <div class="row" id="repo_list">
+            
+
+    
+        </div>
+    </div>
+
+
+    <div id="social-media" class="container-fluid p-4">
+        <div class="container text-white">
+            <h4 class="text-warning">Social Media</h4>
+            <h1 class="m-heading">Let's get connected</h1>
+            <div class="row pt-5">
+                <div class="col-3 media_link btn">
+                    <a href="https://www.linkedin.com/in/suyen-shrestha-122a64187/" class="stretched-link"></a>
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-start">
+                            <h3 class="pt-2 m-0 text-white">LinkedIn</h3>
+                        </div>
+                        <div class="col-6 col-6 d-flex justify-content-end align-items-center">
+                            <i class="fa fa-linkedin-square fa-2x text-secondary" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 media_link btn">
+                    <a href="https://github.com/Suyen-Shrestha" class="stretched-link"></a>
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-start">
+                            <h3 class="pt-2 m-0 text-white">Github</h3>
+                        </div>
+                        <div class="col-6 col-6 d-flex justify-content-end align-items-center">
+                            <i class="fa fa-github fa-2x text-secondary" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 media_link btn">
+                    <a href="https://www.instagram.com/suyen_stha/" class="stretched-link"></a>
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-start">
+                            <h3 class="pt-2 m-0 text-white">Instagram</h3>
+                        </div>
+                        <div class="col-6 col-6 d-flex justify-content-end align-items-center">
+                            <i class="fa fa-instagram fa-2x text-secondary" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 media_link btn-warning btn" >
+                    <a href="suyencrestha@gmail.com" class="stretched-link"></a>
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-start">
+                            <h3 class="pt-2 m-0 text-dark">Email</h3>
+                        </div>
+                        <div class="col-6 col-6 d-flex justify-content-end align-items-center">
+                            <i class="fa fa-envelope fa-2x text-secondary" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container text-muted text-center py-3 mt-5">
+            <h5>Copyright &copy; 2020 | Suyen Shrestha</h5>
+        </div>
+    </footer>
+
+
+    <script>
+        fetch('https://api.github.com/users/Suyen-Shrestha/repos?page=2&per_page=6')
+            .then(response => response.json())
+            .then(function(data){
+                data.forEach(repo => {
+                    let html = `<div class="col-4 mb-5">
+                                <div class="card" style="width: 18rem;">
+                                <img src="./images/projects.jpg" class="card-img-top p-2" alt="..." style="height: 13rem;">
+                                <div class="card-body">
+                                <h5 class="card-title">${repo['name']}</h5>
+                                <p class="card-text">${repo['description'] ? repo['description'] : 'No description available.' }</p>
+                                <a href=${repo['html_url']} class="btn btn-warning">Checkout on Git</a>
+                                </div>
+                                </div>
+                                </div>`
+                    document.getElementById('repo_list').innerHTML += html            
+
+                })
+            })
+    </script>
+</body>
+</html>
